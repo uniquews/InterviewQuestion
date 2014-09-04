@@ -31,20 +31,23 @@ public:
     
     int partition(vector<int> &arr, int left, int right) {
         int pivot = arr[left + (right - left) / 2];
-        while (arr[left] < pivot) {
-            left++;
-        }
+        while (left <= right) {
+            while (arr[left] < pivot) {
+                left++;
+            }
+            
+            while (arr[right] > pivot) {
+                right--;
+            }
+            
+            if (left <= right) {
+                swap(arr, left, right);
+                left++;
+                right--;
+            }
         
-        while (arr[right] > pivot) {
-            right--;
         }
-        
-        if (left <= right) {
-            swap(arr, left, right);
-            left++;
-            right--;
-        }
-        
+       
         return left;
     }
     
@@ -61,7 +64,8 @@ public:
 int main(int argc, const char * argv[])
 {
 
-    vector<int> a={1,1,1,3,2,4,5,6,7,4,3,2};
+//    vector<int> a = {1,1,1,3,2,4,5,6,7,4,3,2};
+    vector<int> a = {1,2,3,4,6,5,7,1,2};
     int end = (int)a.size();
     
     Solution su;
