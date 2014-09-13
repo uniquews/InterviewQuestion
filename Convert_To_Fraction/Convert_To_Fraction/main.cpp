@@ -59,7 +59,7 @@ int main(int argc, const char * argv[])
 {
 
     Solution su;
-    double num = 0.19;
+    double num = 0.3;
     vector<int> result = su.convertFraction(num);
     cout << result[0] << " " << result[1] << endl;
     return 0;
