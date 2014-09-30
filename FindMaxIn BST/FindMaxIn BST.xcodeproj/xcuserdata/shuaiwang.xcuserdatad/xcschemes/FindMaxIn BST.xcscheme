@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-               BuildableName = "Trie Tree"
-               BlueprintName = "Trie Tree"
-               ReferencedContainer = "container:Trie Tree.xcodeproj">
+               BlueprintIdentifier = "60C1359F19DA656C00C27FCC"
+               BuildableName = "FindMaxIn BST"
+               BlueprintName = "FindMaxIn BST"
+               ReferencedContainer = "container:FindMaxIn BST.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C1359F19DA656C00C27FCC"
+            BuildableName = "FindMaxIn BST"
+            BlueprintName = "FindMaxIn BST"
+            ReferencedContainer = "container:FindMaxIn BST.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C1359F19DA656C00C27FCC"
+            BuildableName = "FindMaxIn BST"
+            BlueprintName = "FindMaxIn BST"
+            ReferencedContainer = "container:FindMaxIn BST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C1359F19DA656C00C27FCC"
+            BuildableName = "FindMaxIn BST"
+            BlueprintName = "FindMaxIn BST"
+            ReferencedContainer = "container:FindMaxIn BST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

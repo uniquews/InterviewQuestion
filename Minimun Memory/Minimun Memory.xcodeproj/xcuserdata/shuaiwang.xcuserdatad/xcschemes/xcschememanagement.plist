@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Trie Tree.xcscheme</key>
+		<key>Minimun Memory.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>603C5E1319DB1FD200127EB3</key>
+		<key>6042D45719D87B0B004C6962</key>
 		<dict>
 			<key>primary</key>
 			<true/>

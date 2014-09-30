@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		603C5E1819DB1FD200127EB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603C5E1719DB1FD200127EB3 /* main.cpp */; };
-		603C5E1A19DB1FD200127EB3 /* Trie_Tree.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */; };
+		60C135A419DA656C00C27FCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C135A319DA656C00C27FCC /* main.cpp */; };
+		60C135A619DA656C00C27FCC /* FindMaxIn_BST.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60C135A519DA656C00C27FCC /* FindMaxIn_BST.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		603C5E1219DB1FD200127EB3 /* CopyFiles */ = {
+		60C1359E19DA656C00C27FCC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				603C5E1A19DB1FD200127EB3 /* Trie_Tree.1 in CopyFiles */,
+				60C135A619DA656C00C27FCC /* FindMaxIn_BST.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		603C5E1419DB1FD200127EB3 /* Trie Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Trie Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
-		603C5E1719DB1FD200127EB3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Trie_Tree.1; sourceTree = "<group>"; };
+		60C135A019DA656C00C27FCC /* FindMaxIn BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FindMaxIn BST"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C135A319DA656C00C27FCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60C135A519DA656C00C27FCC /* FindMaxIn_BST.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FindMaxIn_BST.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		603C5E1119DB1FD200127EB3 /* Frameworks */ = {
+		60C1359D19DA656C00C27FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		603C5E0B19DB1FD200127EB3 = {
+		60C1359719DA656C00C27FCC = {
 			isa = PBXGroup;
 			children = (
-				603C5E1619DB1FD200127EB3 /* Trie Tree */,
-				603C5E1519DB1FD200127EB3 /* Products */,
+				60C135A219DA656C00C27FCC /* FindMaxIn BST */,
+				60C135A119DA656C00C27FCC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		603C5E1519DB1FD200127EB3 /* Products */ = {
+		60C135A119DA656C00C27FCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				603C5E1419DB1FD200127EB3 /* Trie Tree */,
+				60C135A019DA656C00C27FCC /* FindMaxIn BST */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		603C5E1619DB1FD200127EB3 /* Trie Tree */ = {
+		60C135A219DA656C00C27FCC /* FindMaxIn BST */ = {
 			isa = PBXGroup;
 			children = (
-				603C5E1719DB1FD200127EB3 /* main.cpp */,
-				603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */,
+				60C135A319DA656C00C27FCC /* main.cpp */,
+				60C135A519DA656C00C27FCC /* FindMaxIn_BST.1 */,
 			);
-			path = "Trie Tree";
+			path = "FindMaxIn BST";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		603C5E1319DB1FD200127EB3 /* Trie Tree */ = {
+		60C1359F19DA656C00C27FCC /* FindMaxIn BST */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 603C5E1D19DB1FD200127EB3 /* Build configuration list for PBXNativeTarget "Trie Tree" */;
+			buildConfigurationList = 60C135A919DA656C00C27FCC /* Build configuration list for PBXNativeTarget "FindMaxIn BST" */;
 			buildPhases = (
-				603C5E1019DB1FD200127EB3 /* Sources */,
-				603C5E1119DB1FD200127EB3 /* Frameworks */,
-				603C5E1219DB1FD200127EB3 /* CopyFiles */,
+				60C1359C19DA656C00C27FCC /* Sources */,
+				60C1359D19DA656C00C27FCC /* Frameworks */,
+				60C1359E19DA656C00C27FCC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Trie Tree";
-			productName = "Trie Tree";
-			productReference = 603C5E1419DB1FD200127EB3 /* Trie Tree */;
+			name = "FindMaxIn BST";
+			productName = "FindMaxIn BST";
+			productReference = 60C135A019DA656C00C27FCC /* FindMaxIn BST */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		603C5E0C19DB1FD200127EB3 /* Project object */ = {
+		60C1359819DA656C00C27FCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shuai Wang";
 			};
-			buildConfigurationList = 603C5E0F19DB1FD200127EB3 /* Build configuration list for PBXProject "Trie Tree" */;
+			buildConfigurationList = 60C1359B19DA656C00C27FCC /* Build configuration list for PBXProject "FindMaxIn BST" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 603C5E0B19DB1FD200127EB3;
-			productRefGroup = 603C5E1519DB1FD200127EB3 /* Products */;
+			mainGroup = 60C1359719DA656C00C27FCC;
+			productRefGroup = 60C135A119DA656C00C27FCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				603C5E1319DB1FD200127EB3 /* Trie Tree */,
+				60C1359F19DA656C00C27FCC /* FindMaxIn BST */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		603C5E1019DB1FD200127EB3 /* Sources */ = {
+		60C1359C19DA656C00C27FCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603C5E1819DB1FD200127EB3 /* main.cpp in Sources */,
+				60C135A419DA656C00C27FCC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		603C5E1B19DB1FD200127EB3 /* Debug */ = {
+		60C135A719DA656C00C27FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -162,7 +162,7 @@
 			};
 			name = Debug;
 		};
-		603C5E1C19DB1FD200127EB3 /* Release */ = {
+		60C135A819DA656C00C27FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,14 +194,14 @@
 			};
 			name = Release;
 		};
-		603C5E1E19DB1FD200127EB3 /* Debug */ = {
+		60C135AA19DA656C00C27FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		603C5E1F19DB1FD200127EB3 /* Release */ = {
+		60C135AB19DA656C00C27FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -211,24 +211,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		603C5E0F19DB1FD200127EB3 /* Build configuration list for PBXProject "Trie Tree" */ = {
+		60C1359B19DA656C00C27FCC /* Build configuration list for PBXProject "FindMaxIn BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				603C5E1B19DB1FD200127EB3 /* Debug */,
-				603C5E1C19DB1FD200127EB3 /* Release */,
+				60C135A719DA656C00C27FCC /* Debug */,
+				60C135A819DA656C00C27FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		603C5E1D19DB1FD200127EB3 /* Build configuration list for PBXNativeTarget "Trie Tree" */ = {
+		60C135A919DA656C00C27FCC /* Build configuration list for PBXNativeTarget "FindMaxIn BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				603C5E1E19DB1FD200127EB3 /* Debug */,
-				603C5E1F19DB1FD200127EB3 /* Release */,
+				60C135AA19DA656C00C27FCC /* Debug */,
+				60C135AB19DA656C00C27FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 603C5E0C19DB1FD200127EB3 /* Project object */;
+	rootObject = 60C1359819DA656C00C27FCC /* Project object */;
 }

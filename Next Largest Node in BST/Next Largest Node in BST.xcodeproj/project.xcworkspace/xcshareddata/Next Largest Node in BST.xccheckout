@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>87638312-A089-48BF-9567-B8E2C19A0255</string>
+	<string>C8069D2D-7D20-49F7-943E-8D625546CCA7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Trie Tree</string>
+	<string>Next Largest Node in BST</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3F1921D4-F14D-4683-8B4A-119425DA1B19</key>
+		<key>BE805CE0-3D14-41F6-B626-9D6F60B459FC</key>
 		<string>ssh://github.com/uniquews/InterviewQuestion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Trie Tree/Trie Tree.xcodeproj/project.xcworkspace</string>
+	<string>Next Largest Node in BST/Next Largest Node in BST.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3F1921D4-F14D-4683-8B4A-119425DA1B19</key>
+		<key>BE805CE0-3D14-41F6-B626-9D6F60B459FC</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3F1921D4-F14D-4683-8B4A-119425DA1B19</string>
+	<string>BE805CE0-3D14-41F6-B626-9D6F60B459FC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3F1921D4-F14D-4683-8B4A-119425DA1B19</string>
+			<string>BE805CE0-3D14-41F6-B626-9D6F60B459FC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>InterviewQuestion</string>
 		</dict>

@@ -2,95 +2,119 @@
 //  main.cpp
 //  Trie Tree
 //
-//  Created by Shuai Wang on 9/25/14.
+//  Created by Shuai Wang on 9/30/14.
 //  Copyright (c) 2014 Shuai Wang. All rights reserved.
 //
 
 #include <iostream>
 #include <vector>
-#include <list>
-#include <string>
-
-
 using namespace std;
+
+const int kind = 26;
 
 class TreeNode {
 public:
+    int count = 0;
     
-    char val;
-    list<TreeNode *> children;
-    int isWord;
-    TreeNode(char c) : val(c), children(NULL), isWord(0){};
+    TreeNode *next[kind];
+    TreeNode () {
+        count = 1;
+        for (int i = 0; i < kind; i++) {
+            next[i] = NULL;
+        }
+        
+    }
 
 };
 
-class TrieTree{
+
+class TrieTree {
+
 public:
-    TreeNode *root;
-    TrieTree() {
-        char rootVal = '\0';
-        TreeNode *node = new TreeNode(rootVal);
-        this->root = node;
-    }
+    void insert(TreeNode *&root, vector<string> &words);
+    vector<int> search(TreeNode *&root, vector<string> asks);
+
+
 };
 
 
-class Solution {
-public:
-    TrieTree* traverse(vector<string> words) {
-        TrieTree *tree = new TrieTree();
-        TreeNode *root = tree->root;
-        for (int i = 0; i < words.size(); i++) {
-            string cur = words[i];
-            dfs(0, cur, root);
-        
-        
-        }
+void TrieTree::insert(TreeNode *&root, vector<string> &words) {
+    TreeNode *location = root;
     
-        return tree;
+    if (location == nullptr) {
+        location = new TreeNode();
+        root = location;
     }
     
-    
-    void dfs(int index, string s, TreeNode *node) {
-        if (index == s.size()) {
-            node->isWord++;
-            return;
-        }
-        bool found = false;
-        list<TreeNode *> :: iterator it = node->children.begin();
-        while (*it != nullptr) {
-            
-            if ((*it)->val == s[index]) {
-                found = true;
-                dfs(index + 1, s, *it);
-                break;
+    for (int i = 0; i < words.size(); i++) {
+        string word = words[i];
+        int index = 0;
+        int branch = 0;
+        while (word[index] != '\0') {
+            branch = word[index] - 'a';
+            if (location->next[branch] != nullptr) {
+                location->next[branch]->count++;
+            } else {
+                location->next[branch] = new TreeNode();
             }
-            it++;
-        
+            index++;
+            location = location->next[branch];
         }
         
-        if (found) {
-            return;
-        } else {
-            TreeNode *newNode = new TreeNode(s[index]);
-            node->children.push_back(newNode);
-        
-        }
-    
+        location = root;
     }
 
+}
 
 
-};
+vector<int> TrieTree::search(TreeNode *&root, vector<string> asks) {
+    TreeNode *location = root;
+   
+    vector<int> results;
+    
+    if (location == nullptr) {
+        return vector<int> {};
+    }
+    
+    for (int i = 0; i < asks.size(); i++) {
+        string ask = asks[i];
+        int index = 0;
+        int branch = 0;
+        int result = 0;
+        
+        while (ask[index] != '\0') {
+            branch = ask[index] - 'a';
+            if (location->next[branch] == nullptr) {
+                result = 0;
+            } else {
+                result = location->next[branch]->count;
+            }
+            
+            index++;
+            location = location->next[branch];
+        }
+        location = root;
+        results.push_back(result);
+    }
+    
+    return results;
+
+}
 
 
 int main(int argc, const char * argv[])
 {
 
-    vector<string> str = {"abs", "abc", "ghe", "bdf"};
-    Solution su;
-    su.traverse(str);
-    
+    vector<string> strs = {"banana", "band", "bee", "absolute", "acm"};
+    vector<string> asks = {"ba", "b", "band", "abc" };
+
+    TreeNode *root = nullptr;
+    TrieTree tree;
+    tree.insert(root, strs);
+    vector<int> results = tree.search(root, asks);
+    for (int i = 0; i < results.size(); i++) {
+        cout << results[i] << endl;
+    }
     return 0;
 }
 

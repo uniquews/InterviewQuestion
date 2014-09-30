@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-               BuildableName = "Trie Tree"
-               BlueprintName = "Trie Tree"
-               ReferencedContainer = "container:Trie Tree.xcodeproj">
+               BlueprintIdentifier = "6042D45719D87B0B004C6962"
+               BuildableName = "Minimun Memory"
+               BlueprintName = "Minimun Memory"
+               ReferencedContainer = "container:Minimun Memory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D45719D87B0B004C6962"
+            BuildableName = "Minimun Memory"
+            BlueprintName = "Minimun Memory"
+            ReferencedContainer = "container:Minimun Memory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D45719D87B0B004C6962"
+            BuildableName = "Minimun Memory"
+            BlueprintName = "Minimun Memory"
+            ReferencedContainer = "container:Minimun Memory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D45719D87B0B004C6962"
+            BuildableName = "Minimun Memory"
+            BlueprintName = "Minimun Memory"
+            ReferencedContainer = "container:Minimun Memory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

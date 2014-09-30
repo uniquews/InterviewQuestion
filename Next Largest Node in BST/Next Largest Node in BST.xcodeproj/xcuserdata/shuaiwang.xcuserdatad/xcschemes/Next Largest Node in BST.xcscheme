@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-               BuildableName = "Trie Tree"
-               BlueprintName = "Trie Tree"
-               ReferencedContainer = "container:Trie Tree.xcodeproj">
+               BlueprintIdentifier = "60C135B419DA6D6E00C27FCC"
+               BuildableName = "Next Largest Node in BST"
+               BlueprintName = "Next Largest Node in BST"
+               ReferencedContainer = "container:Next Largest Node in BST.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C135B419DA6D6E00C27FCC"
+            BuildableName = "Next Largest Node in BST"
+            BlueprintName = "Next Largest Node in BST"
+            ReferencedContainer = "container:Next Largest Node in BST.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C135B419DA6D6E00C27FCC"
+            BuildableName = "Next Largest Node in BST"
+            BlueprintName = "Next Largest Node in BST"
+            ReferencedContainer = "container:Next Largest Node in BST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "60C135B419DA6D6E00C27FCC"
+            BuildableName = "Next Largest Node in BST"
+            BlueprintName = "Next Largest Node in BST"
+            ReferencedContainer = "container:Next Largest Node in BST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

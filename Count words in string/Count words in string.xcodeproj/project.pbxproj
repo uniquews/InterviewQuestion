@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		603C5E1819DB1FD200127EB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603C5E1719DB1FD200127EB3 /* main.cpp */; };
-		603C5E1A19DB1FD200127EB3 /* Trie_Tree.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */; };
+		6042D47119D87C6F004C6962 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6042D47019D87C6F004C6962 /* main.cpp */; };
+		6042D47319D87C6F004C6962 /* Count_words_in_string.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6042D47219D87C6F004C6962 /* Count_words_in_string.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		603C5E1219DB1FD200127EB3 /* CopyFiles */ = {
+		6042D46B19D87C6F004C6962 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				603C5E1A19DB1FD200127EB3 /* Trie_Tree.1 in CopyFiles */,
+				6042D47319D87C6F004C6962 /* Count_words_in_string.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		603C5E1419DB1FD200127EB3 /* Trie Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Trie Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
-		603C5E1719DB1FD200127EB3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Trie_Tree.1; sourceTree = "<group>"; };
+		6042D46D19D87C6F004C6962 /* Count words in string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Count words in string"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6042D47019D87C6F004C6962 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6042D47219D87C6F004C6962 /* Count_words_in_string.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Count_words_in_string.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		603C5E1119DB1FD200127EB3 /* Frameworks */ = {
+		6042D46A19D87C6F004C6962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		603C5E0B19DB1FD200127EB3 = {
+		6042D46419D87C6F004C6962 = {
 			isa = PBXGroup;
 			children = (
-				603C5E1619DB1FD200127EB3 /* Trie Tree */,
-				603C5E1519DB1FD200127EB3 /* Products */,
+				6042D46F19D87C6F004C6962 /* Count words in string */,
+				6042D46E19D87C6F004C6962 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		603C5E1519DB1FD200127EB3 /* Products */ = {
+		6042D46E19D87C6F004C6962 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				603C5E1419DB1FD200127EB3 /* Trie Tree */,
+				6042D46D19D87C6F004C6962 /* Count words in string */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		603C5E1619DB1FD200127EB3 /* Trie Tree */ = {
+		6042D46F19D87C6F004C6962 /* Count words in string */ = {
 			isa = PBXGroup;
 			children = (
-				603C5E1719DB1FD200127EB3 /* main.cpp */,
-				603C5E1919DB1FD200127EB3 /* Trie_Tree.1 */,
+				6042D47019D87C6F004C6962 /* main.cpp */,
+				6042D47219D87C6F004C6962 /* Count_words_in_string.1 */,
 			);
-			path = "Trie Tree";
+			path = "Count words in string";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		603C5E1319DB1FD200127EB3 /* Trie Tree */ = {
+		6042D46C19D87C6F004C6962 /* Count words in string */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 603C5E1D19DB1FD200127EB3 /* Build configuration list for PBXNativeTarget "Trie Tree" */;
+			buildConfigurationList = 6042D47619D87C6F004C6962 /* Build configuration list for PBXNativeTarget "Count words in string" */;
 			buildPhases = (
-				603C5E1019DB1FD200127EB3 /* Sources */,
-				603C5E1119DB1FD200127EB3 /* Frameworks */,
-				603C5E1219DB1FD200127EB3 /* CopyFiles */,
+				6042D46919D87C6F004C6962 /* Sources */,
+				6042D46A19D87C6F004C6962 /* Frameworks */,
+				6042D46B19D87C6F004C6962 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Trie Tree";
-			productName = "Trie Tree";
-			productReference = 603C5E1419DB1FD200127EB3 /* Trie Tree */;
+			name = "Count words in string";
+			productName = "Count words in string";
+			productReference = 6042D46D19D87C6F004C6962 /* Count words in string */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		603C5E0C19DB1FD200127EB3 /* Project object */ = {
+		6042D46519D87C6F004C6962 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shuai Wang";
 			};
-			buildConfigurationList = 603C5E0F19DB1FD200127EB3 /* Build configuration list for PBXProject "Trie Tree" */;
+			buildConfigurationList = 6042D46819D87C6F004C6962 /* Build configuration list for PBXProject "Count words in string" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 603C5E0B19DB1FD200127EB3;
-			productRefGroup = 603C5E1519DB1FD200127EB3 /* Products */;
+			mainGroup = 6042D46419D87C6F004C6962;
+			productRefGroup = 6042D46E19D87C6F004C6962 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				603C5E1319DB1FD200127EB3 /* Trie Tree */,
+				6042D46C19D87C6F004C6962 /* Count words in string */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		603C5E1019DB1FD200127EB3 /* Sources */ = {
+		6042D46919D87C6F004C6962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603C5E1819DB1FD200127EB3 /* main.cpp in Sources */,
+				6042D47119D87C6F004C6962 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		603C5E1B19DB1FD200127EB3 /* Debug */ = {
+		6042D47419D87C6F004C6962 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -162,7 +162,7 @@
 			};
 			name = Debug;
 		};
-		603C5E1C19DB1FD200127EB3 /* Release */ = {
+		6042D47519D87C6F004C6962 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,14 +194,14 @@
 			};
 			name = Release;
 		};
-		603C5E1E19DB1FD200127EB3 /* Debug */ = {
+		6042D47719D87C6F004C6962 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		603C5E1F19DB1FD200127EB3 /* Release */ = {
+		6042D47819D87C6F004C6962 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -211,24 +211,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		603C5E0F19DB1FD200127EB3 /* Build configuration list for PBXProject "Trie Tree" */ = {
+		6042D46819D87C6F004C6962 /* Build configuration list for PBXProject "Count words in string" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				603C5E1B19DB1FD200127EB3 /* Debug */,
-				603C5E1C19DB1FD200127EB3 /* Release */,
+				6042D47419D87C6F004C6962 /* Debug */,
+				6042D47519D87C6F004C6962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		603C5E1D19DB1FD200127EB3 /* Build configuration list for PBXNativeTarget "Trie Tree" */ = {
+		6042D47619D87C6F004C6962 /* Build configuration list for PBXNativeTarget "Count words in string" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				603C5E1E19DB1FD200127EB3 /* Debug */,
-				603C5E1F19DB1FD200127EB3 /* Release */,
+				6042D47719D87C6F004C6962 /* Debug */,
+				6042D47819D87C6F004C6962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 603C5E0C19DB1FD200127EB3 /* Project object */;
+	rootObject = 6042D46519D87C6F004C6962 /* Project object */;
 }

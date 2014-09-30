@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Trie Tree/main.cpp"
-            timestampString = "433793065.037245"
+            filePath = "Minimun Memory/main.cpp"
+            timestampString = "433617819.750705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "TrieTree::search(TreeNode *&amp;root, vector&lt;string&gt; asks)"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "minimumMemory(vector&lt;int&gt; nums)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

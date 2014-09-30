@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-               BuildableName = "Trie Tree"
-               BlueprintName = "Trie Tree"
-               ReferencedContainer = "container:Trie Tree.xcodeproj">
+               BlueprintIdentifier = "6042D46C19D87C6F004C6962"
+               BuildableName = "Count words in string"
+               BlueprintName = "Count words in string"
+               ReferencedContainer = "container:Count words in string.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D46C19D87C6F004C6962"
+            BuildableName = "Count words in string"
+            BlueprintName = "Count words in string"
+            ReferencedContainer = "container:Count words in string.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D46C19D87C6F004C6962"
+            BuildableName = "Count words in string"
+            BlueprintName = "Count words in string"
+            ReferencedContainer = "container:Count words in string.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "603C5E1319DB1FD200127EB3"
-            BuildableName = "Trie Tree"
-            BlueprintName = "Trie Tree"
-            ReferencedContainer = "container:Trie Tree.xcodeproj">
+            BlueprintIdentifier = "6042D46C19D87C6F004C6962"
+            BuildableName = "Count words in string"
+            BlueprintName = "Count words in string"
+            ReferencedContainer = "container:Count words in string.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
