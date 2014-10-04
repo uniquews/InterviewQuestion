@@ -82,7 +82,7 @@ vector<int> TrieTree::search(TreeNode *&root, vector<string> asks) {
         int branch = 0;
         int result = 0;
         
-        while (ask[index] != '\0') {
+        while (ask[index] != '\0' && location != nullptr) {
             branch = ask[index] - 'a';
             if (location->next[branch] == nullptr) {
                 result = 0;
@@ -106,7 +106,7 @@ int main(int argc, const char * argv[])
 {
 
     vector<string> strs = {"banana", "band", "bee", "absolute", "acm"};
-    vector<string> asks = {"ba", "b", "band", "abc" };
+    vector<string> asks = {"ba", "b", "band", "abc", "cc" };
 
     TreeNode *root = nullptr;
     TrieTree tree;
