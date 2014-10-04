@@ -66,7 +66,7 @@ public:
     }
 
 
-};Í
+};
 
 int main(int argc, const char * argv[])
 {
