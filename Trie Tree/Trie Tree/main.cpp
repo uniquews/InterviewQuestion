@@ -106,7 +106,7 @@ int main(int argc, const char * argv[])
 {
 
     vector<string> strs = {"banana", "band", "bee", "absolute", "acm"};
-    vector<string> asks = {"ba", "b", "band", "abc", "cc" };
+    vector<string> asks = {"ba", "b", "band", "abc", "bac" };
 
     TreeNode *root = nullptr;
     TrieTree tree;
