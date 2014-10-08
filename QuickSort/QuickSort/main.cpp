@@ -18,13 +18,13 @@ public:
     void quickSort(vector<int> &arr, int left, int right) {
         int partitionIndex = partition(arr, left, right);
         
-        if (left < partitionIndex - 1) {
-            quickSort(arr, left, partitionIndex -1);
+        if (left < partitionIndex ) {
+            quickSort(arr, left, partitionIndex);
             
         }
         
-        if (partitionIndex < right) {
-            quickSort(arr, partitionIndex, right);
+        if (partitionIndex + 1 < right) {
+            quickSort(arr, partitionIndex + 1, right);
         }
     
     }
@@ -48,7 +48,7 @@ public:
         
         }
        
-        return left;
+        return right;
     }
     
     void swap(vector<int> &arr, int left, int right) {
@@ -65,7 +65,7 @@ int main(int argc, const char * argv[])
 {
 
 //    vector<int> a = {1,1,1,3,2,4,5,6,7,4,3,2};
-    vector<int> a = {1,2,3,4,6,5,7,1,2};
+    vector<int> a = {1,1,2,1,1,1,5,5};
     int end = (int)a.size();
     
     Solution su;
