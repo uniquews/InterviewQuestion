@@ -26,7 +26,7 @@ public:
     }
     
     void checkRoot(vector<int> &num, int root, int size) {
-        int origin = root;
+        
         while (root * 2 + 1 < size) {
             int left = root * 2 + 1;
             int right = root * 2 + 2;
@@ -41,7 +41,7 @@ public:
             }
             
             if (checkpoint != root) {
-                swap(num[checkpoint], num[origin]);
+                swap(num[checkpoint], num[root]);
                 root = checkpoint; //交换到右边的是孩子，向右继续查看是否孩子和孙子之间满足Heap property
             } else {
                 break; // 此节点已经满足heap property，由于是bottom-up建堆，所以不需要再继续向右查看孩子是否和孙子之间满足heap property
@@ -66,12 +66,12 @@ public:
 int main(int argc, const char * argv[])
 {
 
-    vector<int> A = {8, 6, 3, 1, 5};
-    int n = 5;
+    vector<int> A = {8, 5, 6, 3, 1,2,100,42,53,56,7};
     Solution su;
+    su.buildHeap(A);
     su.heapsort(A);
     
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < A.size(); i++) {
         cout << A[i] <<endl;
     }
     
