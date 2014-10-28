@@ -32,7 +32,7 @@ public:
             result = result * i;
             
         }
-        
+//        return result;
         cout << result << endl;
         
     }
@@ -44,8 +44,8 @@ int main(int argc, const char * argv[])
 {
 
     Solution su;
-    cout << su.tailingZero(17) << endl;
-    su.check(17);
+    cout << su.tailingZero(10) << endl;
+    su.check(10);
     return 0;
 }
 

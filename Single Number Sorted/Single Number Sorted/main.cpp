@@ -32,7 +32,6 @@ public:
                     end = mid;
                     
                 }
-            
             } else {
                 if (A[mid] == A[mid + 1]) {
                     end = mid;

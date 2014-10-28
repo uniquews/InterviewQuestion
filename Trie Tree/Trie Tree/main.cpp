@@ -106,6 +106,7 @@ int main(int argc, const char * argv[])
 {
 
     vector<string> strs = {"banana", "band", "bee", "absolute", "acm"};
+//     vector<string> strs = {"banana"};
     vector<string> asks = {"ba", "b", "band", "abc", "bac" };
 
     TreeNode *root = nullptr;
