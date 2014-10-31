@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "reverse(vector&lt;string&gt; &amp;A)"
+            landmarkName = "reverse(vector&lt;string *&gt; &amp;A)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Reverse String and String Vector/main.cpp"
-            timestampString = "435187184.162343"
+            timestampString = "436218737.536561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "class Solution"
             landmarkType = "3">
          </BreakpointContent>

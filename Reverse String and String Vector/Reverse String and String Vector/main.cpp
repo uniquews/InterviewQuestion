@@ -26,7 +26,12 @@ public:
         
         int start = 0;
         int end = (int)A.size() - 1;
-        swap(A[start], A[end]);
+        while (start <= end) {
+            swap(A[start], A[end]);
+            start++;
+            end--;
+        }
+        
         return;
         
     }

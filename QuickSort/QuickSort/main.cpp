@@ -12,54 +12,101 @@
 using namespace std;
 
 class Solution {
-
 public:
-    
-    void quickSort(vector<int> &arr, int left, int right) {
-        int partitionIndex = partition(arr, left, right);
-        
-        if (left < partitionIndex ) {
-            quickSort(arr, left, partitionIndex);
-            
+    void quickSort(vector<int> &A, int start, int end){
+        if (A.size() == 0) {
+            return;
         }
         
-        if (partitionIndex + 1 < right) {
-            quickSort(arr, partitionIndex + 1, right);
+        
+        int index = partition(A, start, end);
+        if (start < index - 1) {
+            quickSort(A, start, index - 1);
         }
-    
+        
+        if (index < end) {
+            quickSort(A, index, end);
+        }
+        
+        return;
     }
     
-    int partition(vector<int> &arr, int left, int right) {
-        int pivot = arr[left + (right - left) / 2];
+    int partition(vector<int> &A, int left, int right) {
+        int mid = left + (right - left) / 2;
+        int pivot  = A[mid];
         while (left <= right) {
-            while (arr[left] < pivot) {
+            while (A[left] < pivot) {
                 left++;
             }
             
-            while (arr[right] > pivot) {
+            while (A[right] > pivot) {
                 right--;
             }
             
             if (left <= right) {
-                swap(arr, left, right);
+                swap(A[left], A[right]);
                 left++;
                 right--;
             }
-        
+             
+            
         }
-       
-        return right;
+        
+        return left;
     }
     
-    void swap(vector<int> &arr, int left, int right) {
-        int temp = arr[right];
-        arr[right] = arr[left];
-        arr[left] = temp;
-        return;
-    }
     
-
 };
+
+//class Solution {
+//
+//public:
+//    
+//    void quickSort(vector<int> &arr, int left, int right) {
+//        int partitionIndex = partition(arr, left, right);
+//        
+//        if (left < partitionIndex ) {
+//            quickSort(arr, left, partitionIndex);
+//            
+//        }
+//        
+//        if (partitionIndex + 1 < right) {
+//            quickSort(arr, partitionIndex + 1, right);
+//        }
+//    
+//    }
+//    
+//    int partition(vector<int> &arr, int left, int right) {
+//        int pivot = arr[left + (right - left) / 2];
+//        while (left <= right) {
+//            while (arr[left] < pivot) {
+//                left++;
+//            }
+//            
+//            while (arr[right] > pivot) {
+//                right--;
+//            }
+//            
+//            if (left <= right) {
+//                swap(arr, left, right);
+//                left++;
+//                right--;
+//            }
+//        
+//        }
+//       
+//        return right;
+//    }
+//    
+//    void swap(vector<int> &arr, int left, int right) {
+//        int temp = arr[right];
+//        arr[right] = arr[left];
+//        arr[left] = temp;
+//        return;
+//    }
+//    
+//
+//};
 
 int main(int argc, const char * argv[])
 {
