@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>68123727-A661-4F7B-929D-6A81E8A28B09</string>
+	<string>42837B4E-2B5F-4D6C-ADB1-574D733EF334</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Find smallest unreached sum</string>
+	<string>ReadBSTFromFile</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>
 		<string>github.com:uniquews/InterviewQuestion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Find smallest unreached sum/Find smallest unreached sum.xcodeproj</string>
+	<string>ReadBSTFromFile/ReadBSTFromFile.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>

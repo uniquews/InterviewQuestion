@@ -10,29 +10,29 @@
 	<string>MergeSort</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D03FDCFA-C73B-4352-BAFA-CE2DBD57DD5F</key>
-		<string>ssh://github.com/uniquews/InterviewQuestion.git</string>
+		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>
+		<string>github.com:uniquews/InterviewQuestion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MergeSort/MergeSort.xcodeproj/project.xcworkspace</string>
+	<string>MergeSort/MergeSort.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D03FDCFA-C73B-4352-BAFA-CE2DBD57DD5F</key>
+		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/uniquews/InterviewQuestion.git</string>
+	<string>github.com:uniquews/InterviewQuestion.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D03FDCFA-C73B-4352-BAFA-CE2DBD57DD5F</string>
+	<string>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D03FDCFA-C73B-4352-BAFA-CE2DBD57DD5F</string>
+			<string>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</string>
 			<key>IDESourceControlWCCName</key>
 			<string>InterviewQuestion</string>
 		</dict>

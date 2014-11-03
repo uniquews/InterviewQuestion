@@ -68,6 +68,52 @@ using namespace std;
 //
 //};
 
+//class Solution {
+//public:
+//    int * mergeSort(int A[], int n) {
+//        if (n < 2) {
+//            return A;
+//        }
+//        
+//        int mid = n / 2;
+//        int *arr1 = mergeSort(A, mid);
+//        int *arr2 = mergeSort(A + mid, n - mid);
+//        return merge(arr1, mid, arr2, n - mid);
+//        
+//    }
+//    
+//    int * merge(int A[], int size1, int B[], int size2) {
+//        
+//        int *result = new int[size1 + size2];
+//        int i = 0;
+//        int j = 0;
+//        while ((i < size1) && (j < size2)) {
+//            if (A[i] <= B[j]) {
+//                result[i + j] = A[i];
+//                i++;
+//            } else {
+//                result[i + j] = B[j];
+//                j++;
+//            }
+//            
+//        }
+//        
+//        while (i < size1) {
+//            result[i + j] = A[i];
+//            i++;
+//        }
+//        
+//        while (j < size2) {
+//            result[i + j] = B[j];
+//            j++;
+//        }
+//        
+//        return result;
+//        
+//    }
+//    
+//};
+
 class Solution {
 public:
     int * mergeSort(int A[], int n) {
@@ -82,34 +128,34 @@ public:
         
     }
     
-    int * merge(int A[], int size1, int B[], int size2) {
+    
+    int * merge(int arr1[], int size1, int arr2[], int size2) {
         int *result = new int[size1 + size2];
         int i = 0;
         int j = 0;
-        while ((i < size1) && (j < size2)) {
-            if (A[i] <= B[j]) {
-                result[i + j] = A[i];
+        while (i < size1 && j < size2) {
+            if (arr1[i] <= arr2[j]) {
+                result[i + j] = arr1[i];
                 i++;
             } else {
-                result[i + j] = B[j];
+                result[i + j] = arr2[j];
                 j++;
             }
-            
         }
         
         while (i < size1) {
-            result[i + j] = A[i];
+            result[i + j] = arr1[i];
             i++;
         }
         
         while (j < size2) {
-            result[i + j] = B[j];
+            result[i + j] = arr2[j];
             j++;
         }
         
         return result;
-        
     }
+    
     
 };
 
@@ -121,7 +167,7 @@ int main(int argc, const char * argv[])
     int *result = su.mergeSort(a, 9);
 
     for (int i = 0; i < 9; i++) {
-        cout << result[i];
+        cout << result[i] << endl;
     }
     return 0;
 }
