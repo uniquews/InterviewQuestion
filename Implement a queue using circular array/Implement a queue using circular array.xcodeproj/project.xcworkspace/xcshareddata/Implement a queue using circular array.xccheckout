@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>25F956EA-C3B0-4823-92B5-420FD75B8386</string>
+	<string>1457318A-10BC-4A55-8371-74DBC451EE3E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>QuickSort</string>
+	<string>Implement a queue using circular array</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>
 		<string>github.com:uniquews/InterviewQuestion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>QuickSort/QuickSort.xcodeproj</string>
+	<string>Implement a queue using circular array/Implement a queue using circular array.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>

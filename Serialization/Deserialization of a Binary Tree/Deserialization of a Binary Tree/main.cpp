@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <unordered_map>
 
 using namespace std;
 
@@ -35,7 +36,50 @@ public:
   
     }
     
-    vector<int> preorderTraversal(TreeNode *root) {
+    TreeNode* deserialize2(vector<int> nodes) {
+        stack<TreeNode *> stk;
+        TreeNode *root = new TreeNode (nodes[0]);
+        TreeNode *last = root;
+        int i = 1;
+        while (i < nodes.size()) {
+            if (nodes[i] != -1) {
+                TreeNode *cur = new TreeNode(nodes[i]);
+                if (last->left == nullptr) {
+                    last->left = cur;
+                } else {
+                    last->right = cur;
+                }
+                
+                stk.push(last);
+                last = cur;
+                i++;
+            } else {
+                if (i + 1 < nodes.size()) {
+                    if (last->left != nullptr) {
+                        last->right = nullptr;
+                        i++;
+                    } else {
+                        last->left = nullptr;
+                        
+                        if (nodes[i + 1] == -1) {
+                            last->right = nullptr;
+                            last = stk.top();
+                        } else {
+                            last->right = new TreeNode(nodes[i + 1]);
+                            last = last->right;
+                        }
+                        i = i + 2;
+                    }
+                    
+                }
+            }
+        
+        }
+        
+        return root;
+    }
+    
+    vector <int> preorderTraversal(TreeNode *root) {
         if (root == nullptr) {
             return vector<int> {};
         }
@@ -63,11 +107,12 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    vector<int> A = {20, 8, 4, -1, -1, 12, 10, -1, -1, 14, -1, -1, -1};
+//    vector<int> A = {20, 8, 4, -1, -1, 12, 10, -1, -1, 14, -1, -1, -1};
+//    vector<int> A = {1,2,4,-1,5,-1,-1,-1,3,-1,-1};
+    vector<int> A = {1,2,3,-1,5,-1,-1,-1,4,-1,-1};
     Solution su;
-    TreeNode *root = nullptr;
-    int start = 0;
-    su.deserialize(root, A, start);
+//    int start = 0;
+    TreeNode *root = su.deserialize2(A);
     vector<int> result = su.preorderTraversal(root);
     for (int i = 0; i < result.size(); i++) {
         cout << result[i] << endl;
