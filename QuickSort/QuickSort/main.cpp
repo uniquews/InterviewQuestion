@@ -17,107 +17,41 @@ public:
         if (A.size() == 0) {
             return;
         }
-        
-        
-        int index = partition(A, start, end);
-        if (start < index - 1) {
+        if (start < end) {
+            int index = partition(A, start, end);
             quickSort(A, start, index - 1);
+            quickSort(A, index + 1, end);
         }
-        
-        if (index < end) {
-            quickSort(A, index, end);
-        }
-        
-        return;
-    }
     
-    int partition(vector<int> &A, int left, int right) {
-        int mid = left + (right - left) / 2;
-        int pivot  = A[mid];
-        while (left <= right) {
-            while (A[left] < pivot) {
-                left++;
+    }
+
+    int partition(vector<int> &A, int start, int end) {
+        int pivot = A[end];
+        int leftTail = start - 1;
+        for (int rightHead = start; rightHead <= end - 1; rightHead++) {
+            if (A[rightHead] <= pivot) {
+                leftTail++;
+                swap(A[leftTail], A[rightHead]);
             }
-            
-            while (A[right] > pivot) {
-                right--;
-            }
-            
-            if (left <= right) {
-                swap(A[left], A[right]);
-                left++;
-                right--;
-            }
-             
-            
         }
         
-        return left;
+        swap(A[leftTail + 1], A[end]);
+        return leftTail + 1;
     }
-    
     
 };
 
-//class Solution {
-//
-//public:
-//    
-//    void quickSort(vector<int> &arr, int left, int right) {
-//        int partitionIndex = partition(arr, left, right);
-//        
-//        if (left < partitionIndex ) {
-//            quickSort(arr, left, partitionIndex);
-//            
-//        }
-//        
-//        if (partitionIndex + 1 < right) {
-//            quickSort(arr, partitionIndex + 1, right);
-//        }
-//    
-//    }
-//    
-//    int partition(vector<int> &arr, int left, int right) {
-//        int pivot = arr[left + (right - left) / 2];
-//        while (left <= right) {
-//            while (arr[left] < pivot) {
-//                left++;
-//            }
-//            
-//            while (arr[right] > pivot) {
-//                right--;
-//            }
-//            
-//            if (left <= right) {
-//                swap(arr, left, right);
-//                left++;
-//                right--;
-//            }
-//        
-//        }
-//       
-//        return right;
-//    }
-//    
-//    void swap(vector<int> &arr, int left, int right) {
-//        int temp = arr[right];
-//        arr[right] = arr[left];
-//        arr[left] = temp;
-//        return;
-//    }
-//    
-//
-//};
 
 int main(int argc, const char * argv[])
 {
 
 //    vector<int> a = {1,1,1,3,2,4,5,6,7,4,3,2};
-    vector<int> a = {1,1,2,1,1,1,5,5};
+//    vector<int> a = {8,9,1,5,13,7,100,30,2};
+    vector<int> a = {8,9,7,5,2,10};
     int end = (int)a.size();
     
     Solution su;
-    
-    
+
     su.quickSort(a, 0, end-1);
     
     for(int i=0;i<end;i++){
