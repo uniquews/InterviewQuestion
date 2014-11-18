@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D2276274-263B-4B05-9390-EA8DBCAC1399</string>
+	<string>A3829048-7DDE-4FD4-8A54-C808AB2EBD72</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Disjoint_Set</string>
+	<string>Dijkstra</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>
 		<string>github.com:uniquews/InterviewQuestion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Disjoint_Set/Disjoint_Set.xcodeproj</string>
+	<string>Dijkstra/Dijkstra.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EADCAB56E00D053B6B3EE5C04958922D6AEEC969</key>

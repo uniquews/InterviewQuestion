@@ -14,7 +14,7 @@ using namespace std;
 
 class Disjoint_Set {
 public:
-    
+    //A = B, E = F, C = G, G = A, C = F
     unordered_map<char, char> parent;
     unordered_map<char, int> rank;
     
